@@ -1,14 +1,57 @@
-p {
-    width: 30px;
-}
+
 body {
     background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     color: black;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+}
+h2 {
+    color: red;
+    display: grid;
+    align-items: center;
+}
+.main-title {
+    font-size: 46px;
+}
+.navigation {
+    background-color: blueviolet;
+    font-size: 24px;
 }
 p {
-    color: brown;
+    color: rgb(0, 0, 0);
     font-size: large;
+    width: 30px;
+}
+#Hero {
+    justify-self: center;
+
+    width: 600px;
+    height: 400px;
+}
+
+#kontaktpilt {
+    width: 300px;
+    height: 200px;
+}
+header {
+    display: grid;
+    text-align: center;
+
+}
+nav {
+    font-size: large;
+    a:hover {color: red;}
+    a:active {color:black} 
+}
+a:focus {
+    background-color: yellow;
+    width: 250px;
+}
+.center {
+    background-color: blue;
 }

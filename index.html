@@ -7,12 +7,53 @@
         <title>Lehekülg</title>
     </head>
     <body>
-        <a href="#content class=skip-link">Liigu sisu juurde</a>
-        <header><h1>Testleht</h1></header>
-        <main id="content"><p>Vist töötab</p></main>
-        <img src="image/tasutapilt.jpg" alt="hea pilt">
-       <p class="title">Ringo Fedotov</p>
-       <p>Arvutiproff</p>
+        <header class="header">
+                <img id="Hero" src="image/leon-seibert-2m71l9fA6mg-unsplash.jpg" alt="Internet" fetchpriority="high" >
+            
+            
+            <h1>Testleht</h1>
+            <nav aria-label="Põhinavigatsioon">
+                <a href="#sissejuhatus">Sissejuhatus</a>
+                <a href="#teooria">Teooria</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+        </header>
+        <main>
+            <section id="sissejuhatus">
+                <audio controls>
+                    <source src="heli/mixkit-hard-laptop-keyboard-typing-2538.wav" type="audio/wav">
+                </audio>
+                <h2>Sissejuhatus</h2>
+                <p>Mis on HTML?</p>
+            </section>
+            <section id="teooria" >
+                <a href="https://unsplash.com/" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=4076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="näidispilt" width="300" height="300" loading="lazy">
+                </a>
+                <h2>Teooria</h2>
+                <video controls width="640" height="360" poster="image/branko-stancevic-GI1hwOGqGtE-unsplash.jpg">
+                    <source src="video/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
+                </video>
+                <p>HTML tähendus</p>
+                <a href="https://unsplash.com/" target="_blank">
+                    <img src="https://plus.unsplash.com/premium_photo-1683865776032-07bf70b0add1?q=80&w=3864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="näidis2" width="300" height="300" loading="lazy">
+                </a>
+            </section>
+            <svg role="img" aria-labelledby="ic-title ic-desc" width="50" height="60" viewbox="0 0 24 24">
+                <title id="ic-title">Info ikoon</title>
+                <desc id="ic-desc">Ringis A täht</desc>
+                <circle cx="12" cy="12" r="10" fill="#ffffff"/>
+                <text x="12" y="16" text-anchor="middle" font-size="12" fill="#000000">A</text>
+            </svg>
+             
+        
+       <section id="kontakt">
+        <h2>Visiitkaart</h2>
+        <p>Ringo Fedotov</p>
+        <p>Arvutiproff</p>
+        <img src="image/tasutapilt.jpg" alt="hea pilt" id="kontaktpilt" loading="lazy">
+       </section>
+        </main>
       <footer>© 2025</footer>  
     </body>
 </html>
