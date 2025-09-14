@@ -6,17 +6,18 @@ body {
 h1 {
     color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    justify-items: end;
+    justify-items: normal;
 }
 h2 {
     color: red;
     display: grid;
     align-items: center;
+    font-size: 2em;
 }
 .main-title {
-    font-size: 46px;
+    font-size: 48px;
 }
 .navigation {
     background-color: blueviolet;
@@ -26,6 +27,7 @@ p {
     color: rgb(0, 0, 0);
     font-size: large;
     width: 30px;
+    line-height: 2em;
 }
 #Hero {
     justify-self: center;
@@ -44,7 +46,12 @@ header {
 
 }
 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     font-size: large;
+    gap: 2rem;
     a:hover {color: red;}
     a:active {color:black} 
 }
@@ -52,6 +59,21 @@ a:focus {
     background-color: yellow;
     width: 250px;
 }
-.center {
+a:hover {
+    background-color: green;
+    font-size: 18px;
+}
+#sissejuhatus:hover {
+    font-size: 2rem;
+    background-color: gold;
+}
+#teooria:hover {
     background-color: blue;
+    font-size: 1rem;
+}
+#kontakt {
+    background-color: white;
+}
+span {
+    font-size: 1.6em
 }
